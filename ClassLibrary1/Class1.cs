@@ -15,7 +15,7 @@ namespace TestGradeConverter
         public void GradeConverter_input101_expectInvalidInput()
         {
             //3"a" Arrange
-            decimal input = 111.00M;
+            decimal input = 101.00M;
             string expected = "It is a invalid input, please retry";
 
             //Act
